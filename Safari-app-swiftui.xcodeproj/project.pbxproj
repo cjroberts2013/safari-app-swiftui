@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D244172286BD0700069CB3F /* Safari_app_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D244171286BD0700069CB3F /* Safari_app_swiftuiApp.swift */; };
+		7D244174286BD0700069CB3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D244173286BD0700069CB3F /* ContentView.swift */; };
+		7D244176286BD0710069CB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D244175286BD0710069CB3F /* Assets.xcassets */; };
+		7D244179286BD0710069CB3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D244178286BD0710069CB3F /* Preview Assets.xcassets */; };
+		7D244183286BD0710069CB3F /* Safari_app_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D244182286BD0710069CB3F /* Safari_app_swiftuiTests.swift */; };
+		7D24418D286BD0710069CB3F /* Safari_app_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24418C286BD0710069CB3F /* Safari_app_swiftuiUITests.swift */; };
+		7D24418F286BD0710069CB3F /* Safari_app_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24418E286BD0710069CB3F /* Safari_app_swiftuiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D24417F286BD0710069CB3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D244166286BD0700069CB3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D24416D286BD0700069CB3F;
+			remoteInfo = "Safari-app-swiftui";
+		};
+		7D244189286BD0710069CB3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D244166286BD0700069CB3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D24416D286BD0700069CB3F;
+			remoteInfo = "Safari-app-swiftui";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D24416E286BD0700069CB3F /* Safari-app-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari-app-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D244171286BD0700069CB3F /* Safari_app_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari_app_swiftuiApp.swift; sourceTree = "<group>"; };
+		7D244173286BD0700069CB3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D244175286BD0710069CB3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D244178286BD0710069CB3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D24417E286BD0710069CB3F /* Safari-app-swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safari-app-swiftuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D244182286BD0710069CB3F /* Safari_app_swiftuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari_app_swiftuiTests.swift; sourceTree = "<group>"; };
+		7D244188286BD0710069CB3F /* Safari-app-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safari-app-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D24418C286BD0710069CB3F /* Safari_app_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari_app_swiftuiUITests.swift; sourceTree = "<group>"; };
+		7D24418E286BD0710069CB3F /* Safari_app_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari_app_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D24416B286BD0700069CB3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D24417B286BD0710069CB3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D244185286BD0710069CB3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D244165286BD0700069CB3F = {
+			isa = PBXGroup;
+			children = (
+				7D244170286BD0700069CB3F /* Safari-app-swiftui */,
+				7D244181286BD0710069CB3F /* Safari-app-swiftuiTests */,
+				7D24418B286BD0710069CB3F /* Safari-app-swiftuiUITests */,
+				7D24416F286BD0700069CB3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D24416F286BD0700069CB3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D24416E286BD0700069CB3F /* Safari-app-swiftui.app */,
+				7D24417E286BD0710069CB3F /* Safari-app-swiftuiTests.xctest */,
+				7D244188286BD0710069CB3F /* Safari-app-swiftuiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D244170286BD0700069CB3F /* Safari-app-swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				7D244171286BD0700069CB3F /* Safari_app_swiftuiApp.swift */,
+				7D244173286BD0700069CB3F /* ContentView.swift */,
+				7D244175286BD0710069CB3F /* Assets.xcassets */,
+				7D244177286BD0710069CB3F /* Preview Content */,
+			);
+			path = "Safari-app-swiftui";
+			sourceTree = "<group>";
+		};
+		7D244177286BD0710069CB3F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D244178286BD0710069CB3F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D244181286BD0710069CB3F /* Safari-app-swiftuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D244182286BD0710069CB3F /* Safari_app_swiftuiTests.swift */,
+			);
+			path = "Safari-app-swiftuiTests";
+			sourceTree = "<group>";
+		};
+		7D24418B286BD0710069CB3F /* Safari-app-swiftuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D24418C286BD0710069CB3F /* Safari_app_swiftuiUITests.swift */,
+				7D24418E286BD0710069CB3F /* Safari_app_swiftuiUITestsLaunchTests.swift */,
+			);
+			path = "Safari-app-swiftuiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D24416D286BD0700069CB3F /* Safari-app-swiftui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D244192286BD0710069CB3F /* Build configuration list for PBXNativeTarget "Safari-app-swiftui" */;
+			buildPhases = (
+				7D24416A286BD0700069CB3F /* Sources */,
+				7D24416B286BD0700069CB3F /* Frameworks */,
+				7D24416C286BD0700069CB3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safari-app-swiftui";
+			productName = "Safari-app-swiftui";
+			productReference = 7D24416E286BD0700069CB3F /* Safari-app-swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D24417D286BD0710069CB3F /* Safari-app-swiftuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D244195286BD0710069CB3F /* Build configuration list for PBXNativeTarget "Safari-app-swiftuiTests" */;
+			buildPhases = (
+				7D24417A286BD0710069CB3F /* Sources */,
+				7D24417B286BD0710069CB3F /* Frameworks */,
+				7D24417C286BD0710069CB3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D244180286BD0710069CB3F /* PBXTargetDependency */,
+			);
+			name = "Safari-app-swiftuiTests";
+			productName = "Safari-app-swiftuiTests";
+			productReference = 7D24417E286BD0710069CB3F /* Safari-app-swiftuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D244187286BD0710069CB3F /* Safari-app-swiftuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D244198286BD0710069CB3F /* Build configuration list for PBXNativeTarget "Safari-app-swiftuiUITests" */;
+			buildPhases = (
+				7D244184286BD0710069CB3F /* Sources */,
+				7D244185286BD0710069CB3F /* Frameworks */,
+				7D244186286BD0710069CB3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D24418A286BD0710069CB3F /* PBXTargetDependency */,
+			);
+			name = "Safari-app-swiftuiUITests";
+			productName = "Safari-app-swiftuiUITests";
+			productReference = 7D244188286BD0710069CB3F /* Safari-app-swiftuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D244166286BD0700069CB3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7D24416D286BD0700069CB3F = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					7D24417D286BD0710069CB3F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 7D24416D286BD0700069CB3F;
+					};
+					7D244187286BD0710069CB3F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 7D24416D286BD0700069CB3F;
+					};
+				};
+			};
+			buildConfigurationList = 7D244169286BD0700069CB3F /* Build configuration list for PBXProject "Safari-app-swiftui" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D244165286BD0700069CB3F;
+			productRefGroup = 7D24416F286BD0700069CB3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D24416D286BD0700069CB3F /* Safari-app-swiftui */,
+				7D24417D286BD0710069CB3F /* Safari-app-swiftuiTests */,
+				7D244187286BD0710069CB3F /* Safari-app-swiftuiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D24416C286BD0700069CB3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D244179286BD0710069CB3F /* Preview Assets.xcassets in Resources */,
+				7D244176286BD0710069CB3F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D24417C286BD0710069CB3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D244186286BD0710069CB3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D24416A286BD0700069CB3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D244174286BD0700069CB3F /* ContentView.swift in Sources */,
+				7D244172286BD0700069CB3F /* Safari_app_swiftuiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D24417A286BD0710069CB3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D244183286BD0710069CB3F /* Safari_app_swiftuiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D244184286BD0710069CB3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D24418F286BD0710069CB3F /* Safari_app_swiftuiUITestsLaunchTests.swift in Sources */,
+				7D24418D286BD0710069CB3F /* Safari_app_swiftuiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D244180286BD0710069CB3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D24416D286BD0700069CB3F /* Safari-app-swiftui */;
+			targetProxy = 7D24417F286BD0710069CB3F /* PBXContainerItemProxy */;
+		};
+		7D24418A286BD0710069CB3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D24416D286BD0700069CB3F /* Safari-app-swiftui */;
+			targetProxy = 7D244189286BD0710069CB3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D244190286BD0710069CB3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D244191286BD0710069CB3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D244193286BD0710069CB3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Safari-app-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M4VMWD9G6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charlesrobertsdesign.Safari-app-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D244194286BD0710069CB3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Safari-app-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M4VMWD9G6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charlesrobertsdesign.Safari-app-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D244196286BD0710069CB3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8M4VMWD9G6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charlesrobertsdesign.Safari-app-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safari-app-swiftui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Safari-app-swiftui";
+			};
+			name = Debug;
+		};
+		7D244197286BD0710069CB3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8M4VMWD9G6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charlesrobertsdesign.Safari-app-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safari-app-swiftui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Safari-app-swiftui";
+			};
+			name = Release;
+		};
+		7D244199286BD0710069CB3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8M4VMWD9G6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charlesrobertsdesign.Safari-app-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Safari-app-swiftui";
+			};
+			name = Debug;
+		};
+		7D24419A286BD0710069CB3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8M4VMWD9G6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charlesrobertsdesign.Safari-app-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Safari-app-swiftui";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D244169286BD0700069CB3F /* Build configuration list for PBXProject "Safari-app-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D244190286BD0710069CB3F /* Debug */,
+				7D244191286BD0710069CB3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D244192286BD0710069CB3F /* Build configuration list for PBXNativeTarget "Safari-app-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D244193286BD0710069CB3F /* Debug */,
+				7D244194286BD0710069CB3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D244195286BD0710069CB3F /* Build configuration list for PBXNativeTarget "Safari-app-swiftuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D244196286BD0710069CB3F /* Debug */,
+				7D244197286BD0710069CB3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D244198286BD0710069CB3F /* Build configuration list for PBXNativeTarget "Safari-app-swiftuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D244199286BD0710069CB3F /* Debug */,
+				7D24419A286BD0710069CB3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D244166286BD0700069CB3F /* Project object */;
+}
