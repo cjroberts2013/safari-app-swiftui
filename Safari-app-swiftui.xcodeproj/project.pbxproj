@@ -14,6 +14,7 @@
 		7D244183286BD0710069CB3F /* Safari_app_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D244182286BD0710069CB3F /* Safari_app_swiftuiTests.swift */; };
 		7D24418D286BD0710069CB3F /* Safari_app_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24418C286BD0710069CB3F /* Safari_app_swiftuiUITests.swift */; };
 		7D24418F286BD0710069CB3F /* Safari_app_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24418E286BD0710069CB3F /* Safari_app_swiftuiUITestsLaunchTests.swift */; };
+		7D95B2282872170B005CEAF5 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95B2272872170B005CEAF5 /* MotionAnimationView.swift */; };
 		7DE891AF286BD74D001D60B9 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DE891AB286BD74D001D60B9 /* locations.json */; };
 		7DE891B0286BD74D001D60B9 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DE891AC286BD74D001D60B9 /* covers.json */; };
 		7DE891B1286BD74D001D60B9 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DE891AD286BD74D001D60B9 /* videos.json */; };
@@ -79,6 +80,7 @@
 		7D244188286BD0710069CB3F /* Safari-app-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safari-app-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D24418C286BD0710069CB3F /* Safari_app_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari_app_swiftuiUITests.swift; sourceTree = "<group>"; };
 		7D24418E286BD0710069CB3F /* Safari_app_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari_app_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D95B2272872170B005CEAF5 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		7DE891A0286BD717001D60B9 /* gorilla.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gorilla.mp4; sourceTree = "<group>"; };
 		7DE891A1286BD717001D60B9 /* elephant.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.mp4; sourceTree = "<group>"; };
 		7DE891A2286BD717001D60B9 /* rhino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhino.mp4; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 				7DE891D8286E6FFF001D60B9 /* VideoListItemView.swift */,
 				7DE891DA286E9B89001D60B9 /* VideoPlayerView.swift */,
 				7DE891EB287202A5001D60B9 /* MapAnnotationView.swift */,
+				7D95B2272872170B005CEAF5 /* MotionAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 				7DE891C5286D1565001D60B9 /* CodableBundleExtension.swift in Sources */,
 				7DE891D9286E6FFF001D60B9 /* VideoListItemView.swift in Sources */,
 				7DE891D5286E6AEC001D60B9 /* ExternalWebsiteLink.swift in Sources */,
+				7D95B2282872170B005CEAF5 /* MotionAnimationView.swift in Sources */,
 				7DE891CD286D3277001D60B9 /* HeadingView.swift in Sources */,
 				7DE891DB286E9B89001D60B9 /* VideoPlayerView.swift in Sources */,
 			);
@@ -624,6 +628,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -654,6 +659,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
